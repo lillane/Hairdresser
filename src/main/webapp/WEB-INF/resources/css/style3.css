@@ -1,0 +1,140 @@
+html, body, header, footer, div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+footer, header, nav {
+    display: block;
+}
+
+body {
+    background: url(/resources/images/fon.png) repeat;
+    background-color: #ecf0f1;
+    /*font-family: 'Sansita', sans-serif;*/
+    font-family: 'Tangerine', serif;
+    font-size: 16px;
+    padding-top: 140px;
+    -moz-transition: padding-top 0.5s ease;
+    -o-transition: padding-top 0.5s ease;
+    -webkit-transition: padding-top 0.5s ease;
+    transition: padding-top 0.5s ease;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    background-color: rgba(168, 230, 208, 0.27);
+    text-align: center;
+    /*position: relative;*/
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 12;
+}
+.header-top {
+    heigh: 80px;
+    text-transform: uppercase;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding-left: 50px;
+    float: left;
+}
+
+.header-image {
+    max-height: 80px;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.header-h1 {
+    font-family: 'Tangerine', serif;
+    /*font-family: 'Sansita', sans-serif;*/
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 22px;
+    color: #555;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+header nav {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+header nav a {
+    /*color: rgba(47, 41, 41, 0.81);*/
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 1;
+    text-decoration: none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+header nav a:hover {
+    -moz-box-shadow: 0 0 0 1px #fff;
+    -webkit-box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #fff;
+}
+
+/* Sticky Header Style */
+
+body.sticky-header header {
+    height: 60px;
+    background-color: rgba(168, 230, 208, 0.27);
+}
+body.sticky-header .header-top {
+    -moz-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+}
+
+
+.div-loader {
+    padding: 15px;
+    margin: 15px;
+    z-index: 10;
+}
+
+/*ABOUT ME*/
+
+.about-me-image {
+    background-color: rgb(221, 216, 210);
+}
+
+.about-me {
+    padding: 45px;
+    /*margin: 15px;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #555;
+    font-weight: 100;
+
+}
+
